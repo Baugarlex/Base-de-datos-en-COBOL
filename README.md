@@ -15,14 +15,19 @@ ORGANIZATION IS LINE SEQUENTIAL.
 ```bash
 ASSIGN TO "C:\Users\bauga\Documentos\COBOL\Empleados.txt"
 ```
-- **Preferiblemente personalizar los datos a los de uno mismo que vienen en** `IDENTIFICATION DIVISION.`
+- **Preferiblemente personalizar los datos a los de uno mismo que vienen en** `IDENTIFICATION DIVISION.` **al igual que** `ENVIRONMENT DIVISION.`
 ```bash
 IDENTIFICATION DIVISION.
-    PROGRAM-ID. Base_De_Datos.
+    PROGRAM-ID. Operaciones_Basicas.
     AUTHOR. Alex_Dan
     INSTALLATION. C:\Users\Alex\Dividiones.cbl
     DATE-WRITTEN. 04/05/2024
     DATE-COMPILED. 04/05/2024
+
+ENVIRONMENT DIVISION.
+    CONFIGURATION SECTION.
+        SOURCE-COMPUTER. VivoBook_ASUSLaptop X515UA-D515UA.
+        OBJECT-COMPUTER. VivoBook_ASUSLaptop X515UA-D515UA.
 ```
 - **Si se desea se puede borrar o cambiar sin ningún problema la parte que está antes de** `IDENTIFICATION DIVISION.`
 ```bash
