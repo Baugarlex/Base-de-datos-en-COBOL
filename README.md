@@ -4,7 +4,7 @@ El siguiente programa hecho en COBOL crea un archivo .dat en la dirección indic
 
 ## Condiciones para su funcionamiento
 
-- **Se debe de cambiar la dirección en la que se quiere guardar el archivo en la cláusula** `ASSIGN TO
+- **Se debe de cambiar la dirección en la que se quiere guardar el archivo en la cláusula** `ASSIGN TO`
 ```bash
 FILE-CONTROL.
 SELECT OPTIONAL EMPLEADOS_ARCHIVO
@@ -15,4 +15,7 @@ ORGANIZATION IS LINE SEQUENTIAL.
 ```bash
 ASSIGN TO "C:\Users\bauga\Documentos\COBOL\Empleados.txt"
 ```
-- **Si se desea se puede borrar o personalizar sin ningún problema la parte que está antes de** `ASSIGN TO
+- **Si se desea se puede borrar o personalizar sin ningún problema la parte que está antes de** `IDENTIFICATION DIVISION.`
+```bash
+ASSIGN TO "C:\Users\bauga\Documentos\COBOL\Empleados.txt"
+```
