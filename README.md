@@ -15,7 +15,16 @@ ORGANIZATION IS LINE SEQUENTIAL.
 ```bash
 ASSIGN TO "C:\Users\bauga\Documentos\COBOL\Empleados.txt"
 ```
-- **Si se desea se puede borrar o personalizar sin ningún problema la parte que está antes de** `IDENTIFICATION DIVISION.`
+- **Preferiblemente personalizar los datos a los de uno mismo que vienen en** `IDENTIFICATION DIVISION.`
 ```bash
 ASSIGN TO "C:\Users\bauga\Documentos\COBOL\Empleados.txt"
+```
+- **Si se desea se puede borrar o cambiar sin ningún problema la parte que está antes de** `IDENTIFICATION DIVISION.`
+```bash
+******************************************************************
+* Author: Alex_Dan                                               *
+* Date: 04/05/2024                                               *
+* Purpose: Proyecto                                              *
+* Tectonics: cobc                                                *
+******************************************************************
 ```
